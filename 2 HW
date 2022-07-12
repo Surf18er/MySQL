@@ -1,1 +1,19 @@
+# 1 задание
+[mysql]
+user=root
+password=
+
+
+# 2 задание 
+
+CREATE DATABASE example;
+CREATE DATABASE sample;
+USE example;
+CREATE TABLE users (id SERIAL PRIMARY KEY, name VARCHAR(255) COMMENT 'Имя пользователя');
+exit
+
+# 3 задание(проблемы с терминалом возникли но вроде так должно быть)
+SHOW DATABASES;
+DESCRIBE sample.users;
+
 
